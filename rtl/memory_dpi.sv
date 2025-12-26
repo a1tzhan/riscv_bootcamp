@@ -67,7 +67,7 @@ module memory_dpi(
     
     // Initialize memory on startup
     initial begin
-        mem_init("/mnt/c/Users/Professional/Desktop/mdv101/bootcamp/miniRV/instructions.hex");
+        mem_init("/mnt/c/Users/Professional/Desktop/mdv101/riscv_bootcamp/miniRV/instructions.hex");
     end
 
 endmodule

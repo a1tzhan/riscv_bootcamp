@@ -7,7 +7,7 @@ MinirvEmulator::MinirvEmulator() : registers_(16, 0), memory_(131072, 0) // 128K
 
 void MinirvEmulator::PopulateMemory()
 {
-    std::ifstream in("/mnt/c/Users/Professional/Desktop/mdv101/bootcamp/miniRV/instructions.hex");
+    std::ifstream in("/mnt/c/Users/Professional/Desktop/mdv101/riscv_bootcamp/miniRV/instructions.hex");
     std::string line;
     if (!in)
     {

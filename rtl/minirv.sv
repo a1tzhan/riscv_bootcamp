@@ -45,7 +45,7 @@ module minirv(
         .q(pc_to_instrROM)
     );
 
-    instrROM minirv_instrROM(
+    memory_dpi minirv_memory(
         .clk(clk),
         .pc(pc_to_instrROM ), 
         .data_store(q2_to_alu),

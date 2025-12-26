@@ -1,4 +1,4 @@
-module instrROM(
+module instrROM( // old memory unit replaced by memory_dpi
     input logic clk,
      /* verilator lint_off UNUSED */
     input logic [31:0] pc,  // Lower 2 bits unused (word-aligned addressing)
