@@ -1,0 +1,88 @@
+# ===========================================
+# MiniRV Project .gitignore
+# ===========================================
+
+# -------------------------------------------
+# Verilator Generated Files (obj_dir/)
+# -------------------------------------------
+# These are auto-generated during simulation build
+# and should NOT be committed - they are large and
+# can be regenerated with `verilator`
+obj_dir/
+
+# -------------------------------------------
+# Compiled Binaries & Object Files
+# -------------------------------------------
+*.o
+*.a
+*.d
+*.exe
+*.out
+
+# Generated executables (Verilator simulation binaries)
+Vminirv
+Vscpu
+generate_inst
+
+# -------------------------------------------
+# Generated Test Data Files
+# -------------------------------------------
+# These hex files can be provided externally or generated
+instructions.hex
+mem.hex
+
+# -------------------------------------------
+# Waveform Files
+# -------------------------------------------
+# VCD (Value Change Dump) files can be very large
+*.vcd
+*.fst
+*.fst.hier
+
+# -------------------------------------------
+# IDE & Editor Files
+# -------------------------------------------
+# VS Code
+.vscode/
+*.code-workspace
+
+# JetBrains IDEs
+.idea/
+
+# Vim/Neovim
+*.swp
+*.swo
+*~
+
+# -------------------------------------------
+# OS Generated Files
+# -------------------------------------------
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*.directory
+
+# -------------------------------------------
+# Python
+# -------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.egg-info/
+.eggs/
+
+# -------------------------------------------
+# Logs
+# -------------------------------------------
+*.log
